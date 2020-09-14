@@ -1,0 +1,46 @@
+When you’re working on a project that’s a little more complex, 
+a single module can get messy. You’ll need to define classes for 
+models and forms, and they’ll get mixed in with the code for your routes 
+and configuration. To solve this problem, we can factor out the different components of 
+our app into a group of inter-connected modules — a package.
+
+So my trick is define a init_app in every folder's __init__.py, 
+and unify the init progress as one:
+
+- Stop cyclic dependencies from occurring.
+- Don't backward import from root __init__.py.
+
+	"Just delete what you don't need"
+
+-- Function based Structure -- 
+Project (Frontend | Backend)_NAME
+├── app/
+│   ├── __init__.py
+│   │
+│   ├── database.py
+│   │
+│   ├── settings.py
+│   │
+│   ├── config/ 
+│   │    └──test&dev&prod.py
+│   ├── models/
+│   │	 └──__init__.py
+│   ├── views/
+│   │    └──__init__.py
+│   ├── services
+│   │    └──__init__.py
+│   ├── schema/
+│   │    └──__init__.py
+│   ├── admin/
+│   │    └──__init__.py
+│   │ 
+│   ├── templates/
+│   │    └──base.html
+│   ├── static/
+│   │     └── style.css
+│   └── run.py
+│
+├── "name_of_env"(pipenv)/
+├── pipfile & piplock
+├── setup.py
+└── MANIFEST.in
