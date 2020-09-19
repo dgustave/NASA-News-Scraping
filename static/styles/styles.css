@@ -1,0 +1,61 @@
+
+.iconic {
+    border-radius: 80%;
+
+    }
+  
+    .iconic:hover {
+    box-shadow: 0 0 2px 1px rgba(167, 152, 21, 0.5);
+    }
+
+.g1_img {
+    border-radius: 80%;
+    }
+
+.compare {
+    float: right;
+    z-index: auto;
+
+    }
+.correlation {
+    float: none;
+    }
+
+.left {
+    width: 50%;
+    }
+      
+.right {
+     width: 50%;
+    }
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    /* Ids------------ */
+/* This codes goes in Custom CSS area: */
+.iframe-container {
+    overflow: hidden;
+    /* 16:9 aspect ratio */
+    padding-top: 0%;
+    position: relative;
+  }
+  
+  .iframe-container iframe {
+     border: 0;
+     height: 120%;
+     left: 0;
+     position: fixed;
+     top: 0%;
+     width: 100%;
+  /* }
+#innerdiv{
+    position : relative;
+    top      : -500px;
+    left     : -800px;
+    width    : 980px;
+    height   : 760px;
+    } */
