@@ -1,6 +1,4 @@
 # Web-Scraping-Challenge
-## Before You Begin
-
 
 ## - Scraping for Scraps on Mars!
 
