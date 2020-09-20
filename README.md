@@ -10,6 +10,8 @@ Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, an
 
 * Use the data you obtained, store it in a Mongo Database, and use those items to append to your own website. In this case, its all about Mars. 
 
+<img src="/static/img/mongo.png">
+
 ### NASA Mars News 
 <img src="/static/img/home.png">
 
