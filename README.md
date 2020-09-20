@@ -2,7 +2,7 @@
 ## Before You Begin
 
 
-## Step 1 - Scraping
+## - Scraping for Scraps on Mars!
 
 Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Selenium:
 
